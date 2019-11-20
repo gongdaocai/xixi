@@ -5,7 +5,11 @@
     <groupId>com.xcly</groupId>
     <artifactId>my-util</artifactId>
     <version>1.1-SNAPSHOT</version>
-
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+    </properties>
 
     <distributionManagement>
         <repository>
@@ -31,7 +35,7 @@
         <!--需要打包项目的git地址-->
         <connection>scm:git:https://github.com/gongdaocai/xixi.git</connection>
 
-        <tag>v1.0</tag>
+        <tag>v1.1</tag>
     </scm>
     <build>
         <plugins>
